@@ -36,6 +36,7 @@ class Season{
     private final String seasonName;
     private final String seasonDesc;
 
+
     //2.私有化类的构造器,并给对象属性赋值
     private Season(String seasonName,String seasonDesc){
         this.seasonName = seasonName;
@@ -59,9 +60,12 @@ class Season{
     //4.其他诉求1：提供toString()
     @Override
     public String toString() {
+
         return "Season{" +
                 "seasonName='" + seasonName + '\'' +
                 ", seasonDesc='" + seasonDesc + '\'' +
                 '}';
+
     }
+
 }
